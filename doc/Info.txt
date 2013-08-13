@@ -1,0 +1,70 @@
+/*****************************************************************************************/
+/**************************************INFO***********************************************/
+/*****************************************************************************************/
+
+The cascade select expect data in JSON format from the passed url. The JSON object must 
+look like this:
+
+[
+  {
+    "text": "Centro-Oeste",
+    "value": 3
+  },
+  {
+    "text": "Nordeste",
+    "value": 2
+  },
+  {
+    "text": "Norte",
+    "value": 1
+  },
+  {
+    "text": "Sudeste",
+    "value": 4
+  },
+  {
+    "text": "Sul",
+    "value": 5
+  }
+]
+
+/*****************************************************************************************/
+/***************************************EXEMPLE*******************************************/
+/*****************************************************************************************/
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <div>
+            <label for="regioes">Regioes: </label>
+            <select id="regioes">
+            </select>
+        </div>
+        <div>
+            <label for="estados">Estados: </label>
+            <select id="estados">
+            </select>
+        </div>
+        <div>
+            <label for="cidades">Cidades: </label>
+            <select id="cidades">
+            </select>
+        </div>
+    </div>
+</body>
+</html>
+  <script src="~/Scripts/jquery-*.js"></script>
+  <script src="~/Scripts/jquery-cascadeselect-0.1.js"></script>
+  <script type="text/javascript">
+    $(function () {
+        $("#regioes").cascadeselect('/api/Search/GetRegioes', 'Selecione', null, null);
+        $("#estados").cascadeselect('/api/Search/GetEstados', 'Selecione', "regioes", "regiaoId");
+        $("#cidades").cascadeselect('/api/Search/GetCidades', 'Selecione', 'estados', 'estadoId');
+    });
+  </script>
+
+/************************************************************************************************/
