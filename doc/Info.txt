@@ -2,7 +2,7 @@
 /**************************************INFO***********************************************/
 /*****************************************************************************************/
 
-The cascade select expect data in JSON format from the passed url. The JSON object must 
+The cascade select expect data in JSON format as result from the given url. The JSON object must 
 look like this:
 
 [
