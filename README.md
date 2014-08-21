@@ -53,12 +53,12 @@ Options
 
 Below you can see every option that can be used to manage your selects:
 
--source: the service URL that will return the JSON data
--selectText: the default text when the select has no item selected
--loadingText: the text that will be displayed when the selection changes
--noneResultText: the text that will appear in the select when no items came from the server
--parentSelectId: the HTML select element Id that will change the items
--paramName: the name of the parameter that your service/api expects
+* source: the service URL that will return the JSON data
+* selectText: the default text when the select has no item selected
+* loadingText: the text that will be displayed when the selection changes
+* noneResultText: the text that will appear in the select when no items came from the server
+* parentSelectId: the HTML select element Id that will change the items
+* paramName: the name of the parameter that your service/api expects
 
 Samples
 ====================
@@ -69,5 +69,5 @@ Coming soon
 ====================
 
 The project is going step by step, But there's some items in the backlog to make It better:
--Cache request
--Aditional param for filter
+* Cache request
+* Aditional param for filter
