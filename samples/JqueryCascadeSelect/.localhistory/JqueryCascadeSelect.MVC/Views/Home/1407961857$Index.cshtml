@@ -1,0 +1,64 @@
+﻿@{
+  ViewBag.Title = "FALS - JQuery Cascade Select";
+}
+
+<div class="jumbotron">
+    <h1>FALS - JQuery Cascade Select Sample</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.Jquery extesion to allow developers to easily create cascade dependents html selects, that can be populated via services.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+  <form class="form-horizontal">
+    <fieldset>
+      <!-- Form Name -->
+      <legend>Select Something</legend>
+
+      <!-- Select Basic -->
+      <div class="control-group">
+        <label class="control-label" for="country">County</label>
+        <div class="controls">
+          <select id="country" name="country" class="input-xlarge"></select>
+        </div>
+      </div>
+
+      <!-- Select Basic -->
+      <div class="control-group">
+        <label class="control-label" for="state">State</label>
+        <div class="controls">
+          <select id="state" name="state" class="input-xlarge"></select>
+        </div>
+      </div>
+
+      <!-- Select Basic -->
+      <div class="control-group">
+        <label class="control-label" for="city">City</label>
+        <div class="controls">
+          <select id="city" name="city" class="input-xlarge"></select>
+        </div>
+      </div>
+
+    </fieldset>
+  </form>
+</div>
+@section Scripts {
+  
+  <script src="~/Scripts/jquery-cascadeselect-0.2.js"></script>
+  <script>
+    $("#country").cascadeselect({
+      source: '/Home/GetCountries',
+      selectText: "Select Something",
+      loadingText: 'Loading...',
+      noneResultText: 'No items found!'
+    });
+
+    $("#state").cascadeselect({
+      source: '/Home/GetStates',
+      selectText: "Select the State",
+      loadingText: 'Loading States...',
+      noneResultText: 'No States Found!',
+      parentSelectId: 'country',
+      paramName: 'countyId'
+    });
+  </script>
+}

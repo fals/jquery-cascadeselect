@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JqueryCascadeSelect.MVC", "JqueryCascadeSelect.MVC\JqueryCascadeSelect.MVC.csproj", "{2E1A2CFB-1B0B-4388-864C-C138B01F7681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JqueryCascadeSelect.WebForms", "JqueryCascadeSelect.WebForms\JqueryCascadeSelect.WebForms.csproj", "{BBE4651E-0B05-4C61-A9FF-B48458FC3FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JqueryCascadeSelect.Data", "JqueryCascadeSelect.Data\JqueryCascadeSelect.Data.csproj", "{300F6852-AE50-4738-ABE7-E5869D4BDAFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E1A2CFB-1B0B-4388-864C-C138B01F7681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1A2CFB-1B0B-4388-864C-C138B01F7681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1A2CFB-1B0B-4388-864C-C138B01F7681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1A2CFB-1B0B-4388-864C-C138B01F7681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE4651E-0B05-4C61-A9FF-B48458FC3FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE4651E-0B05-4C61-A9FF-B48458FC3FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE4651E-0B05-4C61-A9FF-B48458FC3FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE4651E-0B05-4C61-A9FF-B48458FC3FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300F6852-AE50-4738-ABE7-E5869D4BDAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300F6852-AE50-4738-ABE7-E5869D4BDAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300F6852-AE50-4738-ABE7-E5869D4BDAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300F6852-AE50-4738-ABE7-E5869D4BDAFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

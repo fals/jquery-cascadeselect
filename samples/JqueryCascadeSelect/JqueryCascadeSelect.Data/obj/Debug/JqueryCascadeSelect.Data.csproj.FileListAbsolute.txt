@@ -1,0 +1,13 @@
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\bin\Debug\JqueryCascadeSelect.Data.dll.config
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\bin\Debug\JqueryCascadeSelect.Data.dll
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\bin\Debug\JqueryCascadeSelect.Data.pdb
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\bin\Debug\EntityFramework.dll
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\bin\Debug\EntityFramework.SqlServerCompact.dll
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\bin\Debug\System.Data.SqlServerCe.dll
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\bin\Debug\System.Data.SqlServerCe.Entity.dll
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\bin\Debug\EntityFramework.xml
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\bin\Debug\EntityFramework.SqlServerCompact.xml
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\obj\Debug\JqueryCascadeSelect.Data.dll
+D:\Repository\GIT\jquery-cascadeselect\src\Exemple\JqueryCascadeSelect\JqueryCascadeSelect.Data\obj\Debug\JqueryCascadeSelect.Data.pdb
