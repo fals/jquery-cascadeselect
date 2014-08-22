@@ -43,7 +43,7 @@ To make a cascade select composition in your application, you should use somethi
       loadingText: 'Loading States...',
       noneResultText: 'No States Found!',
       parentSelectId: 'country',
-      paramName: 'countyId'
+      paramName: 'countryId'
     });
 
 Above you can see the configuration for two dependent selects. The first one "contry", has no parent select, It will come populate with the data from the server by default. The second one "states" has dependency from "country". It will be populated when you select something in "contry", an then call the server using the param named 'countyId' to filter Its results based on the parent select value.
