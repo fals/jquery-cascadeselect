@@ -1,7 +1,7 @@
 jquery-cascadeselect
 ====================
 
-Jquery extesion to allow developers to easily create cascade dependents html selects, that can be populated via restful services.
+Jquery extesion to allow developers to easily create cascade dependents html selects, that can be populated via services.
 Enjoy the simplicity when creating n-select dependency and no need of management of those.
 
 Using
@@ -13,24 +13,24 @@ Add the script reference for JQuery Cascade solution to your page after the JQue
 
 Call the script for every select you need:
 
- 	$("#selectid").cascadeselect({
-      source: '/myserviceurl',
-      selectText: "Select Something",
-      loadingText: 'Loading...',
-      noneResultText: 'No items found!'
-    });
+    $("#selectid").cascadeselect({
+          source: '/myserviceurl',
+          selectText: "Select Something",
+          loadingText: 'Loading...',
+          noneResultText: 'No items found!'
+  });
 
 Server Side
 ====================
 
-The plugin expects as result a JSON array like [{'value': 'myvalue1', 'text': 'text1'}, {'value': 'myvalue2', 'text': 'text2'}], then you should implement your service returning JSON in this format. This plugin suport Restfull service as WebServices.
+The plugin expects as result a JSON array like [{'value': 'myvalue1', 'text': 'text1'}, {'value': 'myvalue2', 'text': 'text2'}], then you should implement your service returning JSON in this format. This plugin suport Restfull service and WebServices.
 
 Dependent Selects
 ====================
 
 To make a cascade select composition in your application, you should use something like this:
 
-	$("#country").cascadeselect({
+  $("#country").cascadeselect({
       source: '/api/GetCountries',
       selectText: "Select Something",
       loadingText: 'Loading...',
@@ -46,19 +46,19 @@ To make a cascade select composition in your application, you should use somethi
       paramName: 'countyId'
     });
 
-Above you can see the configuration for two dependent selects. The first one "contry", has no parent select, It will come populate with the data from the server by default. The second one "states" has dependency from "contry". It will be populated when you select something in "contry", an then call the server using the param named 'countyId' to filter Its results based on the parent select value.
+Above you can see the configuration for two dependent selects. The first one "contry", has no parent select, It will come populate with the data from the server by default. The second one "states" has dependency from "country". It will be populated when you select something in "contry", an then call the server using the param named 'countyId' to filter Its results based on the parent select value.
 
 Options
 ====================
 
 Below you can see every option that can be used to manage your selects:
 
-* source: the service URL that will return the JSON data
-* selectText: the default text when the select has no item selected
-* loadingText: the text that will be displayed when the selection changes
-* noneResultText: the text that will appear in the select when no items came from the server
-* parentSelectId: the HTML select element Id that will change the items
-* paramName: the name of the parameter that your service/api expects
+* **source:** the service URL that will return the JSON data
+* **selectText:** the default text when the select has no item selected
+* **loadingText:** the text that will be displayed when the selection changes
+* **noneResultText:** the text that will appear in the select when no items came from the server
+* **parentSelectId:** the HTML select element Id that will change the items
+* **paramName:** the name of the parameter that your service/api expects
 
 Samples
 ====================
