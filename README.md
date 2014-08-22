@@ -18,7 +18,7 @@ Call the script for every select you need:
           selectText: "Select Something",
           loadingText: 'Loading...',
           noneResultText: 'No items found!'
-  });
+    });
 
 Server Side
 ====================
@@ -30,13 +30,13 @@ Dependent Selects
 
 To make a cascade select composition in your application, you should use something like this:
 
-  $("#country").cascadeselect({
+    $("#country").cascadeselect({
       source: '/api/GetCountries',
       selectText: "Select Something",
       loadingText: 'Loading...',
       noneResultText: 'No items found!'
     });
-
+    
     $("#state").cascadeselect({
       source: '/api/GetStates',
       selectText: "Select the State",
